@@ -12,92 +12,14 @@ const questions = inquirer.createPromptModule([
         message: "Please enter the title of this project"
     },
     {
-       type: "list",
-       name: "table",
-       message: "Please select items to add to your table of contents",
-       options: [
-        'General',
-        'Installation',
-        'Contributors',
-        'Licensing',
-        'Credits',
-        'Contact',
-       ]
-    },
-    {
-        type: "list",
-        name: "table",
-        message: "Please select items to add to your table of contents",
-        options: [
-         'General',
-         'Installation',
-         'Contributors',
-         'Licensing',
-         'Credits',
-         'Contact',
-        ]
-     },
-     {
-        type: "list",
-        name: "table",
-        message: "Please select items to add to your table of contents",
-        options: [
-         'General',
-         'Installation',
-         'Contributors',
-         'Licensing',
-         'Credits',
-         'Contact',
-        ]
-     },
-     {
-        type: "list",
-        name: "table",
-        message: "Please select items to add to your table of contents",
-        options: [
-         'General',
-         'Installation',
-         'Contributors',
-         'Licensing',
-         'Credits',
-         'Contact',
-        ]
-     },
-     {
-        type: "list",
-        name: "table",
-        message: "Please select items to add to your table of contents",
-        options: [
-         'General',
-         'Installation',
-         'Contributors',
-         'Licensing',
-         'Credits',
-         'Contact',
-        ]
-     },
-     {
-        type: "list",
-        name: "table",
-        message: "Please select items to add to your table of contents",
-        options: [
-         'General',
-         'Installation',
-         'Contributors',
-         'Licensing',
-         'Credits',
-         'Contact',
-        ]
-     },
-    {
         type: "input",
         name: "description",
         message: "Please add a breif description of your project.",
      },
      {
         type: "input",
-        name: "roadbumps",
-        message: "Please take a moment to share any challenges you and/or your team faced when developing this application."
+        name: "challenges",
+        message: "Please take a moment to share any challenges and/or sucesses you and/or your team faced when developing this application."
      },
      {
         type: "input",
@@ -105,79 +27,7 @@ const questions = inquirer.createPromptModule([
         message: "Detail the steps a user must take to install this application."
      },
      {
-        type: "list",
-        name: "technologies",
-        message: "Please select the technologies used to create this application",
-        options: [
-            'HTML',
-            'CSS',
-            'JAVA',
-            'JAVASCRIPT',
-            'JQUERY',
-            'NODE.JS',
-            'PYTHON',
-            'MYSQL',
-            'RUBY',
-            'REACT',
-            'EXPRESS',
-            'HEROKU',
-            'PHP',
-            'C++',
-            'TYPESCRIPT',
-            'KOTLIN',
-            'NO-MORE',
-        ]
-     },
-     {
-        type: "list",
-        name: "technologies",
-        message: "Please select the technologies used to create this application",
-        options: [
-            'HTML',
-            'CSS',
-            'JAVA',
-            'JAVASCRIPT',
-            'JQUERY',
-            'NODE.JS',
-            'PYTHON',
-            'MYSQL',
-            'RUBY',
-            'REACT',
-            'EXPRESS',
-            'HEROKU',
-            'PHP',
-            'C++',
-            'TYPESCRIPT',
-            'KOTLIN',
-            'NO-MORE',
-        ]
-     },
-     {
-        type: "list",
-        name: "technologies",
-        message: "Please select the technologies used to create this application",
-        options: [
-            'HTML',
-            'CSS',
-            'JAVA',
-            'JAVASCRIPT',
-            'JQUERY',
-            'NODE.JS',
-            'PYTHON',
-            'MYSQL',
-            'RUBY',
-            'REACT',
-            'EXPRESS',
-            'HEROKU',
-            'PHP',
-            'C++',
-            'TYPESCRIPT',
-            'KOTLIN',
-            'NO-MORE',
-        ]
-     },
-     {
-        type: "list",
+        type: "checkbox",
         name: "technologies",
         message: "Please select the technologies used to create this application",
         options: [
@@ -233,8 +83,8 @@ const questions = inquirer.createPromptModule([
      },
      {
         type: "input",
-        name: "questions",
-        message: "Almost done! Add your questions here."
+        name: "to do",
+        message: "Almost done! Add any additional information you would like to share here."
      },
 ]);
 
