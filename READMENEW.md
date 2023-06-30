@@ -1,6 +1,6 @@
-# Cats or Dogs
+# cats
 
-  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+  [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://img.shields.io/badge/License-Apache%202.0-blue.svg)(https://opensource.org/licenses/Apache-2.0)
 
 
   ## Table of Contents
@@ -17,37 +17,37 @@
   - [Questions](#questions)
   
   ## Description
-  A blog for people deciding which pet to choose.
+  blog about cats
 
   ## Image
-  ![Screenshot]()
+  ![Screenshot](na)
 
   ## Challenges
-  Many
+  na
 
   ## Installation
-  npm install node and inquirer
+  inquirer
 
   ## Technologies
-  JAVASCRIPT,NODE.JS
+  HTML
 
   ## License
-  MIT
+  Apache
 
   ## Contributors
-  Sachi, Sachi
+  
 
   ## Tests
-  na
+  
 
   ## Contact
-  sachitakao@gmail.com
+  
 
   ## Github
-  sachitakaoka@gmail.com
+  
 
   ## Questions
-  na
+  
   
   
   
